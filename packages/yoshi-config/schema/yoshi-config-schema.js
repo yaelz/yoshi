@@ -188,6 +188,10 @@ const schema = {
         'An experimental way to run only what is relevant to a change in a PR.',
       type: 'boolean',
     },
+    experimentalRtlCss: {
+      description: '',
+      type: 'boolean',
+    },
     startUrl: {
       description:
         'Opens the browser on the specified url/s after running yoshi start',
