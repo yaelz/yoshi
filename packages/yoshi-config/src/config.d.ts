@@ -35,7 +35,7 @@ type WebpackExternals = ExternalsElement | Array<ExternalsElement>;
 export type InitialConfig = {
   extends?: string;
   separateCss?: boolean | 'prod';
-  splitChunks?: boolean;
+  splitChunks?: Options.SplitChunksOptions | false;
   cssModules?: boolean;
   tpaStyle?: boolean;
   enhancedTpaStyle?: boolean;
@@ -86,7 +86,7 @@ export type Config = {
     cdn: Omit<CdnConfig, 'dir'>;
   };
   entry?: WebpackEntry;
-  splitChunks: boolean;
+  splitChunks: Options.SplitChunksOptions | false;
   separateCss: boolean | 'prod';
   cssModules: boolean;
   tpaStyle: boolean;
