@@ -38,8 +38,8 @@
     }
   },
   "lint-staged": {
-    "*.js": [
-      "eslint"
+    "*.{js,ts}": [
+      "eslint --ext js,ts"
     ],
     "*.md": [
       "prettier --write",
