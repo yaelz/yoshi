@@ -17,7 +17,8 @@ module.exports.npmInstall = dir => {
     extendEnv: false,
     env: {
       PATH: process.env.PATH,
-      npm_config_registry: privateRegistry,
+      npm_config_registry:
+        process.env['npm_config_registry'] || privateRegistry,
     },
   });
 };
