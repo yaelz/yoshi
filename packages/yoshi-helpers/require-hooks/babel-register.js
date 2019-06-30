@@ -1,5 +1,4 @@
-const { unprocessedModules } = require('../utils');
-const { createBabelConfig } = require('../utils');
+const { unprocessedModules, createBabelConfig } = require('../utils');
 
 const babelConfig = createBabelConfig();
 

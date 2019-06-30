@@ -7,9 +7,6 @@
     "declarationMap": true,
     "sourceMap": true,
     "composite": true,
-    // "emitDeclarationOnly": true,
-    // "importHelpers": true,
-    // "isolatedModules": true,
 
     "strict": true,
 
