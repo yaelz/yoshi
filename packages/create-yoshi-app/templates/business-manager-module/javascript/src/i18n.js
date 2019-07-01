@@ -1,7 +1,7 @@
 import i18next from 'i18next';
 import i18nextXHRBackend from 'i18next-xhr-backend';
 
-const instance = i18next.createInstance()
+const instance = i18next.createInstance();
 
 export default function i18n({ locale, baseUrl = '' }) {
   return instance.use(i18nextXHRBackend).init({
